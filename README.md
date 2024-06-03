@@ -96,7 +96,7 @@ $ npm run test
 
 son 6 pruebas de controladores las cuales consultan a las fuciones de crear, listar, buscar, actualizar y eliminar
 
-##Resumen
+> [!Resumen]
   El proyecto llamado api-nest-alumnos cubre una necesidad de administrar y mantener una lista de alumnos, para crear un alumno es necesario tener metodos en el controlador de alumons con sus validaciones correspondientes para enviar estos parametros al servicio de alumos el cual se encarga de realizar la creacion de registros en la base de datos en la nuve de AWS a la tabla manejada por DynamonDB una ves registrado
 la api da un mensaje de el registro existoso, para lograr esto es necesario utilizar una clave y enviarlas solo de un dominio autorizado. Serverles realiza toda la cracion de funciones, permisos, roles, tabla y manejar los logs correspondientes. Tambien esta solucion esta contruida con pruebas automatizadas para la calidad de este. Es un gran desafio lograr desarrollarlo y estoy totalmente contento de haber aprendido en el camino algunas cosas y soltar las manos programando.
 
