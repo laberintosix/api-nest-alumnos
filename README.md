@@ -28,7 +28,7 @@ Lo mas importantes es crear una clave de acceso y secreta ya que estas claves se
 ## Descargar el instalador AWS-CLI
 AWS CLI Instalador MSI para Windows (64 bits): https://s3.amazonaws.com/aws-cli/ AWSCLI64PY 3.msi
 
-## Running the app
+## Automatizacion
 ```bash
 Para realizar la automatizacion de serverles he utilizado un empaquetador que tiene como finalidad dejar todos los archivos con extencion TS en un solo archivo main.js,
 para realizar esta ejecucion ingrese el siguiente comnado en el terminal del proyecto
@@ -57,8 +57,7 @@ Los permisos configurados son:
         - dynamodb:DeleteTable
         - dynamodb:DescribeTable
         - dynamodb:ListTables
-
-## Modelos de datos Alumnos
+Modelos de datos Alumnos
   id: string
   nombre: string
   apellido: string
@@ -88,7 +87,6 @@ edad:
  
 Para ejecutar serverless localmente se debe ejecutar el siguiente comando
 $ serverless offline
-```
 este comando realiza la simulacion de serverless con todas sus peticiones o enpoints locales
 la base de datos de dynamoDB se puede trabajar ejucatandola como jar o descargando la imagen con docker
 
