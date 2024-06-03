@@ -29,7 +29,6 @@ Lo mas importantes es crear una clave de acceso y secreta ya que estas claves se
 AWS CLI Instalador MSI para Windows (64 bits): https://s3.amazonaws.com/aws-cli/ AWSCLI64PY 3.msi
 
 ## Automatizacion
-```bash
 Para realizar la automatizacion de serverles he utilizado un empaquetador que tiene como finalidad dejar todos los archivos con extencion TS en un solo archivo main.js,
 para realizar esta ejecucion ingrese el siguiente comnado en el terminal del proyecto
 $ nest build --webpack
